@@ -1,0 +1,57 @@
+.frame{
+    overflow: hidden;
+    width: 100vw;
+    height: 100%;
+}
+@-webkit-keyframes slide_animation {
+    0%{
+        left:0px;
+    }
+    10%{
+        left:0px;
+    }
+    20%{
+        left:1200px;
+    }
+    30%{
+        left:1200px;
+    }
+    40%{
+        left:2400px;
+    }
+    50%{
+        left:2400px;
+    }
+    60%{
+        left:2400px;
+    }
+    70%{
+        left:1200px;
+    }
+    70%{
+        left:1200px;
+    }
+    70%{
+        left:0px;
+    }
+    70%{
+        left:0px;
+    }
+}
+.slide-immages{
+    width: 100%;
+    height: 90vh;
+    margin: 0 0 0 3600px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-delay: 33s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+.image-container{
+    width: 100%;
+    height: 100vw;
+    position: relative;
+    float: left;
+}

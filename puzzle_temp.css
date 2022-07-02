@@ -1,0 +1,379 @@
+
+.tr4 .td10{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+/*(row 5) 7 8 9 10 11 15 17 19*/
+.tr5 .td7{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr5 .td8{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr5 .td9{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr5 .td10{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr5 .td11{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+
+/*(row 6) 10 15 17 19*/
+.tr6 .td10{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+/*(row 7) 4 5 6 7 8 10 15 17 29*/
+.tr7 .td4{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr7 .td5{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr7 .td6{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr7 .td7{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr7 .td8{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr7 .td10{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+/*(row 8) 5 10 15 19*/
+.tr8 .td5{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr8 .td10{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+
+/*(row 9) 2 5 10*/
+.tr9 .td2{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr9 .td5{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr9 .td10{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+
+/*(row 10) 1 2 3 4 5 6 7 10 11 12 14 20*/
+.tr10 .td1{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr10 .td2{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr10 .td3{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr10 .td4{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr10 .td5{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr10 .td6{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr10 .td7{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr10 .td10{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr10 .td11{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr10 .td12{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr10 .td14{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+/*(row 11) 2 5 7 10 14 18 20*/
+.tr11 .td2{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr11 .td5{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr11 .td7{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr11 .td10{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr11 .td14{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr11 .td18{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+
+/*(row 12) 2 5 7 10 11 12 13 14 15 16 17 18 19 20 21*/
+.tr12 .td2{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr12 .td5{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr12 .td7{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr12 .td10{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr12 .td11{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr12 .td12{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr12 .td13{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr12 .td14{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr12 .td15{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr12 .td16{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr12 .td17{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr12 .td18{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr12 .td19{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr12 .td20{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr12 .td21{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+/*(row 13) 2 5 10 14 16 18 20*/
+.tr13 .td2{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr13 .td5{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr13 .td10{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr13 .td14{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr13 .td16{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr13 .td18{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+
+/*(row 14) 2 5 7 10 14 16 18 20*/
+.tr14 .td2{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr14 .td5{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr14 .td7{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr14 .td10{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr14 .td14{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr14 .td16{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr14 .td18{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+/*(row 15) 2 5 6 7 8 9 10 11 12 16 18*/
+.tr15 .td2{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr15 .td5{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr15 .td6{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr15 .td7{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr15 .td8{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr15 .td9{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr15 .td10{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr15 .td11{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr15 .td12{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr15 .td16{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr15 .td18{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+/*(row 16) 2 5 10 16 18*/
+.tr16 .td2{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr16 .td5{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr16 .td10{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr16 .td16{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr16 .td18{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+/*(row 17) 5 6 7 8 9 16*/
+.tr17 .td5{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr17 .td6{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr17 .td7{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr17 .td8{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr17 .td9{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr17 .td16{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr17 .td17{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr17 .td18{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr17 .td19{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr17 .td20{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}
+.tr17 .td21{
+    border: 1px solid white;
+    background-color: rgba(68, 67, 67, 0.4);
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Historia.jpeg">
+    <link rel="stylesheet" href="feedback.css">
+    <link rel="stylesheet" href="nav.css">
+    <script src="feedback.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Historia | Feedback</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="content">
+          <div class="logo">
+            <a href="index.html">Historia
+            </a>
+          </div>
+          <ul class="menu-list">
+            <div class="icon cancel-btn">
+              <i class="fas fa-times"></i>
+            </div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <!--<li><a href="samples/docs/magazine.html">Magazine</a></li>-->
+            <li><a href="puzzle.html">Puzzle</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+          </ul>
+          <div class="icon menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+      <div class="logo" align="center">
+        <img src="RC_crest_white.png" alt="Royal college" class="icon1">
+        <img src="CLUBLOGO.PNG" alt="History club" class="icon2">
+    </div>
+    <div class="project_logo" align="center">
+        <img src="Historia_P.png" alt="Project logo">
+    </div>
+      <div class="about">
+        <div class="content" align="center">
+            <section>
+                <div class="container">
+                  <form  action="https://formspree.io/f/mqknoorr"
+                  method="POST"id="my-form">
+              
+                    <div class="form-group">
+                      <label for="firstName"> First Name</label>
+                      <input type="text" id="firstName" name="firstName">
+                    </div>
+              
+                    <div class="form-group">
+                      <label for="latsName">Last Name</label>
+                      <input type="text" id="lastName" name="lastName">
+                    </div>
+              
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email">
+                    </div>
+              
+                    <div class="form-group">
+                      <label for="massage">Massage</label>
+                      <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+                    </div>
+              
+                    <button type="submit">Submit</button>
+                  </form>
+                </div>
+                <div id="status"></div>
+              </section>
+        </div>
+      </div>
+      <script>
+        const body = document.querySelector("body");
+        const navbar = document.querySelector(".navbar");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = ()=>{
+          navbar.classList.add("show");
+          menuBtn.classList.add("hide");
+          body.classList.add("disabled");
+        }
+        cancelBtn.onclick = ()=>{
+          body.classList.remove("disabled");
+          navbar.classList.remove("show");
+          menuBtn.classList.remove("hide");
+        }
+        window.onscroll = ()=>{
+          this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+        }
+      </script>
+</body>
+</html>

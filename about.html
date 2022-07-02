@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Historia.jpeg">
+    <link rel="stylesheet" href="inde.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Historia | About</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="content">
+          <div class="logo">
+            <a href="index.html">
+                <img src="RC_crest_white.png" alt="Royal college" class="icon1">
+                 <img src="CLUBLOGO.PNG" alt="History club" class="icon2">
+            </a>
+          </div>
+          <ul class="menu-list">
+            <div class="icon cancel-btn">
+              <i class="fas fa-times"></i>
+            </div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <!--<li><a href="samples/docs/magazine.html">Magazine</a></li>-->
+            <li><a href="puzzle.html">Puzzle</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+          </ul>
+          <div class="icon menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+      <br><br><br><br><br><br><br><br><br>
+      <div class="about">
+        <div class="content" align="center">
+            <div class="club_intoduction" align="center">
+                <img src="CLUBLOGO.PNG" alt="Royal college history club">
+                <H1>An Introduction to the Royal College History Club</H1><br>
+            </div>
+            <div class="content" align="center">
+                <P>The History Club of Royal College was established during the 1970s
+                    as the "Natural History Club" with the whole Art Section as its first
+                    members. The Natural History Club existed until the 1990s after it was
+                    disbanded due to a lack of members and inactivity. But in 2013 with
+                    the guidance of Mr. Palitha Abeywardena, the club was founded and
+                    reactivated. After enormous and successful projects, such as
+                    "Wahalkada '16" carried out by the past chairmen the History Club of
+                    Royal College has reached as A graded club.</P>
+            </div>
+            <br><br>
+            <div class="project_intoduction" align="center">
+                <img src="Historia_P.png" alt="Historia Magazine">
+                <H1>An Introduction to Historia Magazine Series</H1>
+            </div>
+            <br>
+            <div class="content" align="center">
+                <P>"Historia'22" is a project organized by the
+                    History Club of Royal College. It's a Magazine series
+                    which will be published once every two months and
+                    it covers a variety of topics like The Ancient Egypt,
+                    Glorious Kingdoms of Sri Lanka and Major Wars
+                    around the World. This project is held to make
+                    everyone aware of the unknown facts, Cultural
+                    Diversity, Various Beliefs, Rituals, Technology and
+                    about a lot of information regarding these topics in a
+                    way which most students find attractive, a Magazine</P>
+                    <br><br><br><br>
+            </div>
+        </div>
+      </div>
+      <script>
+        const body = document.querySelector("body");
+        const navbar = document.querySelector(".navbar");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = ()=>{
+          navbar.classList.add("show");
+          menuBtn.classList.add("hide");
+          body.classList.add("disabled");
+        }
+        cancelBtn.onclick = ()=>{
+          body.classList.remove("disabled");
+          navbar.classList.remove("show");
+          menuBtn.classList.remove("hide");
+        }
+        window.onscroll = ()=>{
+          this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+        }
+      </script>
+</body>
+</html>
