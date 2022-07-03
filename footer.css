@@ -40,11 +40,11 @@ footer{
   font-weight: 600;
   text-transform: uppercase;
 }
-.box .content{
+.box .content2{
   margin: 20px 0 0 0;
   position: relative;
 }
-.box .content:before{
+.box .content2:before{
   /*position: absolute;*/
   content: '';
   top: -10px;
@@ -52,7 +52,7 @@ footer{
   width: 100%;
   background: #1a1a1a;
 }
-.box .content:after{
+.box .content2:after{
   /*position: absolute;*/
   content: '';
   height: 2px;
@@ -60,16 +60,16 @@ footer{
   background: aqua;
   top: -10px;
 }
-.left .content p{
+.left .content2 p{
   text-align: justify;
 }
-.left .content .social{
+.left .content2 .social{
   margin: 20px 0 0 0;
 }
-.left .content .social a{
+.left .content2 .social a{
   padding: 0 2px;
 }
-.left .content .social a span{
+.left .content2 .social a span{
   height: 40px;
   width: 40px;
   background: #1a1a1a;
@@ -79,10 +79,10 @@ footer{
   border-radius: 5px;
   transition: 0.3s;
 }
-.left .content .social a span:hover{
+.left .content2.social a span:hover{
   background: aqua;
 }
-.center .content .fas{
+.center .content2 .fas{
   font-size: 1.4375rem;
   background: #1a1a1a;
   height: 45px;
@@ -93,15 +93,15 @@ footer{
   transition: 0.3s;
   cursor: pointer;
 }
-.center .content .fas:hover{
+.center .content2 .fas:hover{
   background: aqua;
 }
-.center .content .text{
+.center .content2 .text{
   font-size: 1.0625rem;
   font-weight: 500;
   padding-left: 10px;
 }
-.center .content .phone{
+.center .content2 .phone{
   margin: 15px 0;
 }
 .right form .text{
@@ -177,16 +177,16 @@ footer{
     position: absolute;
     bottom: 0px;
 }
-.right .content ul li {
+.right .content2 ul li {
     list-style: none;
     color: white;
     font-size: 1rem;
 }
-.right .content ul li a {
+.right .content2 ul li a {
     text-decoration: none;
     color: white;
     font-size: 1.5rem;
 }
-.right .content ul li a:hover{
+.right .content2 ul li a:hover{
     color: aqua;
 }
