@@ -189,7 +189,7 @@ form_D4.addEventListener('submit', e => {
 
 	if (inputText_D4 === '' || inputText_D4 === null) return
 	if (inputText_D4 === correctWord_D1) {
-		itemsToBeDisplayed_D1.forEach(item => {
+		itemsToBeDisplayed_D4.forEach(item => {
 			item.style.color = 'rgb(255, 255, 255)'
 		})
 	}
