@@ -274,3 +274,15 @@ i {
     width: 25%;
     height: 25%;
 }
+@media (max-width: 531px) {
+    .content img {
+        width: 85%;
+        height: 85%;
+    }
+  }
+  @media (max-width: 531px) {
+    .comment_section{
+        width: 85%;
+        height: 85%;
+    }
+  }
