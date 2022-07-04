@@ -43,6 +43,7 @@
     font-size: 18px;
     border: 1px solid rgba(128, 128, 128, 0.199);
     margin-top: 5px;
+      color: rgb(73, 73, 73);
   }
   
   textarea {
