@@ -43,7 +43,7 @@ footer{
   text-transform: uppercase;
 }
 .box .content2{
-  text-align: center;
+  
   margin: 20px 0 0 0;
   position: relative;
 }
@@ -64,7 +64,7 @@ footer{
   top: -10px;
 }
 .left .content2 p{
-  text-align: justify;
+  text-align: center;
 }
 .left .content2 .social{
   margin: 20px 0 0 0;
