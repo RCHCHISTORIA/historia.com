@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="baner.css">
     <script src="feedback.js"></script>
+    <link rel="stylesheet" href="feedback.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -59,22 +60,31 @@
             </div>
             <div class="comment_section">
                 <div class="wrapper">
-                    <form action="" class="form"   action="https://formspree.io/f/mqknoorr"
+                    <form  action="https://formspree.io/f/mqknoorr"
                   method="POST"id="my-form">
-                        <div class="input-group">
-                            <label for="Name">Name</label>
-                            <input type="text" name="firstName" id="name" placeholder="Your Name" required>
-                        </div>
-                        <div class="input-group">
-                            <label for="Email">Email</label>
-                            <input type="email" name="email" id="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="input-group textarea">
-                            <label for="comment">Your comment</label>'
-                            <textarea name="comment" id="comment" rows="10" placeholder="Enter Your comment hear" required></textarea>
-                        </div>
-                        <button type="submit">Comment</button>
-                    </form>
+              
+                    <div class="form-group">
+                      <label for="firstName"> First Name</label>
+                      <input type="text" id="firstName" name="firstName">
+                    </div>
+              
+                    <div class="form-group">
+                      <label for="latsName">Last Name</label>
+                      <input type="text" id="lastName" name="lastName">
+                    </div>
+              
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email">
+                    </div>
+              
+                    <div class="form-group">
+                      <label for="massage">Massage</label>
+                      <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+                    </div>
+              
+                    <button type="submit">Comment</button>
+                  </form>
                     <div class="prev-comments">
                         <div class="singal-item">
                             <H4>Ushari Chiranjeewa</H4>
