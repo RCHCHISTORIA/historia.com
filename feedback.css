@@ -46,6 +46,7 @@
   }
   
   textarea {
+      color: rgb(73, 73, 73);
     resize: vertical;
   }
   button[type="submit"] {
