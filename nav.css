@@ -168,3 +168,13 @@
     font-size: 27px;
   }
 }
+@media (max-width: 380px) {
+  .banner {
+    width: 531px;
+  }
+}
+@media (max-width: 531px) {
+  .banner {
+    width: 531px;
+  }
+}
