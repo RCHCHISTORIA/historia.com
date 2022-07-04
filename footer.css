@@ -86,7 +86,7 @@ footer{
   border-radius: 5px;
   transition: 0.3s;
 }
-.left .content2.social a span:hover{
+.left .content2.social a:hover{
   background: aqua;
 }
 .center .content2 .fas{
