@@ -31,6 +31,13 @@ body{
   margin: auto;
   padding: 0 0;
 }
+.banner{
+  background: url("banner.png") no-repeat;
+  height: 75vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 .navbar{
     top: 0;
   position: fixed;
