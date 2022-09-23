@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Historia.jpeg">
+    <link rel="stylesheet" href="issus2.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="https://www.historiarchc.ml/baner.css">
+    <script src="feedback.js"></script>
+    <link rel="stylesheet" href="https://www.historiarchc.ml/feedback.css">
+    <link rel="stylesheet" href="https://www.historiarchc.ml/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Historia</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="content">
+          <div class="logo">
+            <a href="index.html">Historia
+            </a>
+          </div>
+          <ul class="menu-list">
+            <div class="icon cancel-btn">
+              <i class="fas fa-times"></i>
+            </div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <!--<li><a href="samples/docs/magazine.html">Magazine</a></li>-->
+            <li><a href="puzzle.html">Puzzle</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+          </ul>
+          <div class="icon menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+
+      
+    
+      <div class="about">
+        <div class="content" align="center">
+            <div class="box_1">
+                <div class="f_box" align="right">
+                    <img src="RC_crest_white.png" alt="RC Crest" class="logo_crest">
+                    <img src="CLUBLOGO.PNG" alt="History club" class="logo_club"><br>
+                    <img src="Historia_P.png" alt="Historia" class="logo_proj">
+                  <h1>Issue 02<br> The Chronicle of the Ancient Geece</h1>  
+                  <p class="dis">Comming Soon...</p>
+                </div>
+                <div class="s_box">
+                  <img class="indexPic" src="indexPic.jpeg" alt="Historia Magazine">
+                </div>
+        </div>
+      </div>
+      <script>
+        const body = document.querySelector("body");
+        const navbar = document.querySelector(".navbar");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = ()=>{
+          navbar.classList.add("show");
+          menuBtn.classList.add("hide");
+          body.classList.add("disabled");
+        }
+        cancelBtn.onclick = ()=>{
+          body.classList.remove("disabled");
+          navbar.classList.remove("show");
+          menuBtn.classList.remove("hide");
+        }
+        window.onscroll = ()=>{
+          this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+        }
+      </script>
+</body>
+</html>
