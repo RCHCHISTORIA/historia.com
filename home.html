@@ -16,6 +16,27 @@
     <title>Historia</title>
 </head>
 <body>
+      <!--Preloarder-->  
+  <div id="preloarder" class="loaderWrapper"></div>
+  <script>
+         
+    window.addEventListener('load', (event) => {
+      const preloarder = document.getElementById('preloarder');
+      preloarder.classList.add('loaderWrapper--hidden');
+
+      preloarder.addEventListener('transitionend', () => {
+        preloarder.remove();
+      });
+    });
+  </script> 
+
+  <!--end of prelording-->
+  <script>
+    document.addEventListener('contextmenu', disableRightClick);
+    function disableRightClick(e){
+      e.preventDefault();
+    }
+    </script>
     <nav class="navbar">
         <div class="content">
           <div class="logo">
