@@ -261,3 +261,23 @@ body{
   font-size: 35px;
   font-weight: 600;
 }
+@media (max-width: 380px) {
+  .banner {
+    width: 531px;
+  }
+}
+@media (max-width: 531px) {
+  .banner {
+    width: 531px;
+  }
+}
+@media (max-width: 380px) {
+  .navbar {
+    width: 390px;
+  }
+
+  .banner{
+    width: 390px;
+    
+  }
+}
