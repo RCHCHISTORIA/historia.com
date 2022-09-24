@@ -29,7 +29,8 @@
     font-size: 15px;
     color: #fff;
 }
-.f_box p.dis{
+.f_box p.dis a{
+    text-decoration: none;
     font-size: 35px;
     font-family: consolas;
     color: rgb(148, 148, 148);
